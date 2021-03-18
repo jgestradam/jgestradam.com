@@ -373,12 +373,12 @@ section {
   transition: all 0.3s;
 }
 
-.fa-paper-plane{
-  color: black;
+.fa-envelope{
+  color: var(--red);
 }
 
 .fa-github{
-  color: #9CDAF1;
+  color: black;
 }
 
 .fa-twitter{
