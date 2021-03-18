@@ -11,6 +11,8 @@
   --red: 	#d62d20;
   --amarillo: #ffa700;
   --blue:#3367d6;
+  --orange:#e34c26;
+  --green:#008744;
 }
 
 a {
@@ -231,27 +233,50 @@ section {
 
 .services__item {
   padding: 20px;
-  background: rgba(245,245,245,0.6);
+  /* background: rgba(245,245,245,0.6); */
   border-bottom: 5px solid transparent;
   border-radius: 10px;
   transition: border 0.3s;
 }
 
-.services__item:hover {
+/* .services__item:hover {
   transition: border 0.3s;
   border-bottom: 5px solid var(--blue);
-}
+} */
 
 .services__item:hover i {
   transition: all 0.3s;
-  color: var(--blue);
+  color: var(--grey);
 }
 
 .services__item i {
   transition: all 0.3s;
   font-size: 40px;
   margin: 20px 0;
-  color: var(--grey);
+}
+
+.fa-mobile-alt{
+  color: black;
+}
+
+.fa-pencil-ruler{
+  color: var(--orange);
+}
+
+.fa-code{
+  color: var(--green);
+}
+
+.fa-thumbs-up{
+  color: var(--red);
+}
+
+.fa-tachometer-alt{
+  color: var(--amarillo);
+}
+
+.fa-crosshairs{
+  color: var(--blue);
 }
 
 .services__item h3 {
@@ -394,7 +419,7 @@ section {
   margin-bottom: 10px;
 }
 
-.fa-paper-plane:hover {
+.fa-envelope:hover {
   transition: all 0.3s;
   color: var(--grey);
 }
