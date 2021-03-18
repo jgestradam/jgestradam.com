@@ -206,6 +206,17 @@ section {
   min-width: 130px;
   height: 180px;
 }
+.fa-html5{
+  color: #e34c26;
+}
+
+.fa-css3-alt{
+  color: #264de4;
+}
+
+.fa-js{
+  color:#f0db4f ;
+}
 
 .skill__name {
   font-size: 16px;
@@ -357,10 +368,25 @@ section {
 }
 
 .contact__item {
-
   color: var(--grey);
   padding: 40px;
   transition: all 0.3s;
+}
+
+.fa-paper-plane{
+  color: black;
+}
+
+.fa-github{
+  color: #9CDAF1;
+}
+
+.fa-twitter{
+  color: #00acee;
+}
+
+.fa-linkedin-in{
+  color:#0e76a8  ;
 }
 
 .contact__item i {
@@ -368,11 +394,22 @@ section {
   margin-bottom: 10px;
 }
 
-.contact__item:hover {
+.fa-paper-plane:hover {
   transition: all 0.3s;
-  color: var(--blue);
+  color: var(--grey);
 }
-
+.fa-github:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.fa-twitter:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
+.fa-linkedin-in:hover {
+  transition: all 0.3s;
+  color: var(--grey);
+}
 .active a {
   color: #f5f5f5;
 }
