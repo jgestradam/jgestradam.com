@@ -198,6 +198,7 @@ section {
   color: var(--grey);
   grid-column: span 3;
   text-align: left;
+  margin: 20px 0;
 }
 
 .skill__item {
