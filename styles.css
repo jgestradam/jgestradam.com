@@ -13,6 +13,7 @@
   --blue:#3367d6;
   --orange:#e34c26;
   --green:#008744;
+  --blueReact: #61DBFB;
 }
 
 a {
@@ -225,6 +226,10 @@ section {
   color: #f34f29;
 }
 
+.fa-react{
+  color: var(--blueReact);
+}
+
 
 .skill__name {
   font-size: 16px;
@@ -306,6 +311,7 @@ section {
   object-fit: cover;
   overflow: hidden;
   font-size: 14px;
+  border-radius: 10px;
 }
 
 .portfolio__img {
@@ -315,6 +321,7 @@ section {
   display: block;
   transition: all 1s;
   border-radius: 10px;
+  max-height: 190px;
 }
 
 .portfolio__description {
@@ -326,6 +333,7 @@ section {
   width: 100%;
   opacity: 0;
   transition: all 0.5s;
+  border-radius: 10px;
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -336,16 +344,18 @@ section {
   visibility: visible;
   opacity: 1;
   transition: all 0.5s;
+  border-radius: 10px;
   transform: translateY(-300px);
 }
 
 .portfolio__item:hover .portfolio__img {
   transition: all 1s;
+  border-radius: 10px;
   transform: scale(1.3);
 }
 
 .portfolio__description--title {
-  color: var(--blue);
+  color: var(--white);
 }
 
 .portfolio__description--text {
@@ -354,6 +364,7 @@ section {
 
 .buttons__container {
   display: flex;
+  border-radius: 10px;
 }
 
 .button {
