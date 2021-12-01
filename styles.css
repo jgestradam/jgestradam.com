@@ -210,6 +210,15 @@ section {
   min-width: 130px;
   height: 180px;
 }
+
+.skill__item img {
+  max-height: 50px;
+  max-width: 100px;
+}
+.fa-node{
+  color: #3C873A;
+}
+
 .fa-html5{
   color: #e34c26;
 }
