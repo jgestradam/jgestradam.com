@@ -408,7 +408,7 @@ section {
   background: var(--grey);
   color: white;
 }
-.fa-github:before {
+.button .fa-github:before {
   color: white;
 }
 
