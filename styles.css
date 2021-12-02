@@ -388,9 +388,6 @@ section {
   color: var(--blue);
 }
 
-
-
-
 .button--cta {
 
   background: var(--blue);
@@ -409,6 +406,9 @@ section {
 
 .button--cta:hover {
   background: var(--grey);
+  color: white;
+}
+.fa-github:before {
   color: white;
 }
 
